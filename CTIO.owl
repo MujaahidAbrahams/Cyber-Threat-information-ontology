@@ -1,0 +1,678 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mujaahidabrahams/ontologies/2022/9/untitled-ontology-23"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mujaahidabrahams/ontologies/2022/9/untitled-ontology-23">
+    <Prefix name="" IRI="http://www.semanticweb.org/mujaahidabrahams/ontologies/2022/9/untitled-ontology-23"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Attack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttackPattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attacker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttackerIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BotnetIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Botnet_Attack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyber_Attacker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyber_AttackerIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DNS_Look_Up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Denial_Of_Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exploit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hacker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HackerIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HostIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hostname"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IOC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loss_of_production"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loss_of_revenue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_attacker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_victim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malicious_Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malware_Attack_Signature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malware_In_Use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Means"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mitnik_Attack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phishing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remote_Access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reputational_damage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SourceIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Target"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TargetIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Target_Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Threat_Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Threat_ActorIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Threat_Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Threat_AgentIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Victim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VictimIP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConsequence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHostname"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIdentified"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeans"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIdentifiable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#launched"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#George"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PSN_Outage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#University_of_Cape_Town"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#University_of_Western_Cape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alfred"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#john"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Attack"/>
+        <Class IRI="#Incident"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Attack"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasConsequence"/>
+            <Class IRI="#Consequence"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Attacker"/>
+        <Class IRI="#Cyber_Attacker"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Attacker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMeans"/>
+            <Class IRI="#Means"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Attacker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#launched"/>
+            <Class IRI="#Attack"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Attacker"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasIP"/>
+            <Class IRI="#AttackerIP"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AttackerIP"/>
+        <Class IRI="#Cyber_AttackerIP"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AttackerIP"/>
+        <Class IRI="#HackerIP"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AttackerIP"/>
+        <Class IRI="#SourceIP"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AttackerIP"/>
+        <Class IRI="#Threat_ActorIP"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AttackerIP"/>
+        <Class IRI="#Threat_AgentIP"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Consequence"/>
+        <Class IRI="#Observable"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cyber_Attacker"/>
+        <Class IRI="#Hacker"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cyber_Attacker"/>
+        <Class IRI="#Malicious_Actor"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cyber_Attacker"/>
+        <Class IRI="#Threat_Actor"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cyber_Attacker"/>
+        <Class IRI="#Threat_Agent"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HostIP"/>
+        <Class IRI="#TargetIP"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HostIP"/>
+        <Class IRI="#VictimIP"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Means"/>
+        <Class IRI="#TTP"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Target"/>
+        <Class IRI="#Victim"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Target_Source"/>
+        <Class IRI="#Victim"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Victim"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasIdentified"/>
+            <Class IRI="#IOC"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Victim"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasHostname"/>
+            <Class IRI="#Hostname"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Victim"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasIP"/>
+            <Class IRI="#HostIP"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Attack"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isIdentifiable"/>
+            <Class IRI="#IOC"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttackPattern"/>
+        <Class IRI="#Means"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attacker"/>
+        <Class IRI="#Main_attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttackerIP"/>
+        <Class IRI="#IP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BotnetIP"/>
+        <Class IRI="#IOC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Botnet_Attack"/>
+        <Class IRI="#Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyber_Attacker"/>
+        <Class IRI="#Main_attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyber_AttackerIP"/>
+        <Class IRI="#IP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DNS_Look_Up"/>
+        <Class IRI="#IOC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Denial_Of_Service"/>
+        <Class IRI="#Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exploit"/>
+        <Class IRI="#Means"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fine"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hacker"/>
+        <Class IRI="#Main_attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HackerIP"/>
+        <Class IRI="#IP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HostIP"/>
+        <Class IRI="#IP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loss_of_production"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loss_of_revenue"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malicious_Actor"/>
+        <Class IRI="#Main_attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malware"/>
+        <Class IRI="#Means"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malware_Attack_Signature"/>
+        <Class IRI="#IOC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malware_In_Use"/>
+        <Class IRI="#Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitnik_Attack"/>
+        <Class IRI="#Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phishing"/>
+        <Class IRI="#Means"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remote_Access"/>
+        <Class IRI="#Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reputational_damage"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SourceIP"/>
+        <Class IRI="#IP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Target"/>
+        <Class IRI="#Main_victim"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TargetIP"/>
+        <Class IRI="#IP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Target_Source"/>
+        <Class IRI="#Main_victim"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theft"/>
+        <Class IRI="#Consequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Threat_Actor"/>
+        <Class IRI="#Main_attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Threat_ActorIP"/>
+        <Class IRI="#IP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Threat_Agent"/>
+        <Class IRI="#Main_attacker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Threat_AgentIP"/>
+        <Class IRI="#IP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Victim"/>
+        <Class IRI="#Main_victim"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VictimIP"/>
+        <Class IRI="#IP"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AttackPattern"/>
+        <Class IRI="#Exploit"/>
+        <Class IRI="#Malware"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AttackerIP"/>
+        <Class IRI="#HostIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AttackerIP"/>
+        <Class IRI="#TargetIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AttackerIP"/>
+        <Class IRI="#VictimIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BotnetIP"/>
+        <Class IRI="#DNS_Look_Up"/>
+        <Class IRI="#Malware_Attack_Signature"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cyber_AttackerIP"/>
+        <Class IRI="#HostIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cyber_AttackerIP"/>
+        <Class IRI="#TargetIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cyber_AttackerIP"/>
+        <Class IRI="#VictimIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fine"/>
+        <Class IRI="#Loss_of_production"/>
+        <Class IRI="#Loss_of_revenue"/>
+        <Class IRI="#Reputational_damage"/>
+        <Class IRI="#Theft"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HackerIP"/>
+        <Class IRI="#HostIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HackerIP"/>
+        <Class IRI="#TargetIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HackerIP"/>
+        <Class IRI="#VictimIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HostIP"/>
+        <Class IRI="#SourceIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HostIP"/>
+        <Class IRI="#Threat_ActorIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HostIP"/>
+        <Class IRI="#Threat_AgentIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SourceIP"/>
+        <Class IRI="#TargetIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SourceIP"/>
+        <Class IRI="#VictimIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TargetIP"/>
+        <Class IRI="#Threat_ActorIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TargetIP"/>
+        <Class IRI="#Threat_AgentIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Threat_ActorIP"/>
+        <Class IRI="#VictimIP"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Threat_AgentIP"/>
+        <Class IRI="#VictimIP"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasIdentified"/>
+            <Class IRI="#BotnetIP"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#George"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
+        <NamedIndividual IRI="#PSN_Outage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMeans"/>
+            <Class IRI="#Malware"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#Simon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isIdentifiable"/>
+            <Class IRI="#Malware_Attack_Signature"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#Simon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIdentified"/>
+            <Class IRI="#Malware_Attack_Signature"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#University_of_Cape_Town"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasIP"/>
+            <Class IRI="#VictimIP"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#University_of_Cape_Town"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Target_Source"/>
+        <NamedIndividual IRI="#University_of_Western_Cape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasIP"/>
+            <Class IRI="#HostIP"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#University_of_Western_Cape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasIdentified"/>
+            <Class IRI="#DNS_Look_Up"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#University_of_Western_Cape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConsequence"/>
+            <Class IRI="#Loss_of_revenue"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#alfred"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConsequence"/>
+            <Class IRI="#Reputational_damage"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#alfred"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#launched"/>
+            <Class IRI="#Mitnik_Attack"/>
+        </ObjectExactCardinality>
+        <NamedIndividual IRI="#john"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasIP"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AttackPattern</IRI>
+        <Literal>attack patterns are used in methods such brute-force, sql-injection and so on.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Exploit</IRI>
+        <Literal>While exploit are not inherently malicious, they can be exploited by an attacker.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IOC</IRI>
+        <Literal>In a future project, conduct more detailed research on IOC to help build the model more</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Main_attacker</IRI>
+        <Literal>Contains all classes synonyms to hacker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Malware</IRI>
+        <Literal>a piece of software that was designed to be maliciouse and invoke some reaction on your system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Means</IRI>
+        <Literal>Means in which an attach can occur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Phishing</IRI>
+        <Literal>once phishing attempt is successfull does an attack occur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasIdentified</IRI>
+        <Literal>In order to be a victim they need to have identified some indicator of compromise</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
